@@ -7,7 +7,9 @@
             </div>
             
 </div>
+
 </template>
+
 
 <script>
    import PiePaginaView from "./pie-pagina.vue";

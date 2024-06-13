@@ -6,4 +6,15 @@
                 </h1>
             </div>
 </div>
+
+
 </template>
+
+<script>
+   import PiePaginaView from "./pie-pagina.vue";
+   export default {
+      components:{
+         PiePaginaView
+      }
+   }
+</script>
