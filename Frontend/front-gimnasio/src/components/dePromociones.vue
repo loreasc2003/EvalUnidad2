@@ -5,5 +5,8 @@
                     Detalle Promociones
                 </h1>
             </div>
+
+            
 </div>
+
 </template>

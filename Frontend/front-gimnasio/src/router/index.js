@@ -9,6 +9,7 @@ import DetallesPromocionesView from '@/components/dePromociones.vue';
 import PedidosView from '@/components/pedidos.vue';
 import DetallesPedidosView from '@/components/dePedidos.vue';
 import TransaccionPagosView from '@/components/transPagos.vue';
+import PiePaginaView from '@/components/pie-pagina.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -35,7 +36,8 @@ const router = createRouter({
         { path: "/dePromociones", name: "detallesPromociones", component: DetallesPromocionesView },
         { path: "/pedidos", name: "pedidos", component: PedidosView },
         { path: "/dePedidos", name: "detallesPedidos", component: DetallesPedidosView },
-        { path: "/transPagos", name: "transaccionPagos", component: TransaccionPagosView }
+        { path: "/transPagos", name: "transaccionPagos", component: TransaccionPagosView },
+        { path: "/pie-pagina", name: "piePagina", component: PiePaginaView }
       ]
     }
   ]
